@@ -1,0 +1,36 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://t3.ftcdn.net/jpg/02/52/12/40/360_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg);
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+}
+
+.container img {
+    width: 500px;
+    height: 500px;
+    margin-left: 0;
+    display: block;
+}
+
+.adobo {
+    margin-top: 200px;
+    display: inline-block;
+    margin-left: 400px;
+    border: 10px solid rgb(255, 0, 0);
+}
+
+.tinola {
+    display: inline-block;
+    border: 10px solid rgb(255, 230, 0);
+}
+
+.afritada {
+    display: inline-block;
+    margin-top: 0;
+    border: 10px solid rgb(4, 0, 255);
+}
+
