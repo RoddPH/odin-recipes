@@ -1,3 +1,3 @@
 # Odin Recipe Website
 
-This is a basic recipe website project using basic HTML
+This is a basic recipe website project using basic HTML and CSS
