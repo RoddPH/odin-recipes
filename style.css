@@ -1,41 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    user-select: none;
+}
+
 body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(https://t3.ftcdn.net/jpg/02/52/12/40/360_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    min-height: 100vh;
 }
 
 h1 {
     color: white;
     font-size: 100px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 100%;
 }
 
 .container {
     display: flex;
-    flex: 1;
     justify-content: center;
     align-items: center;
 }
 
 .container img {
-    width: 500px;
-    height: 500px;
-    margin-left: 0;
+    width: 300px;
+    height: 300px;
 }
 
 .adobo {
-    margin-top: 200px;
-    display: inline-block;
     border: 10px solid rgb(255, 0, 0);
 }
 
 .tinola {
-    display: inline-block;
     border: 10px solid rgb(255, 230, 0);
 }
 
 .afritada {
-    display: inline-block;
-    margin-top: 0;
     border: 10px solid rgb(4, 0, 255);
 }
 
